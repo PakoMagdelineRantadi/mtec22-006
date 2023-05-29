@@ -1,0 +1,121 @@
+<!Doctype html>
+    <html>
+	    <head>
+		    <title>feedback</title>
+			    <style>
+				body{ 
+				background: #f9b4c7;
+				margin: 0 15%;
+				}
+				
+				section{
+				background:
+				font family: verdana;
+				font size: 35px;
+				font color: #aef;
+				text align: left;
+				float: left;
+				padding: 20px;
+				    }
+					
+				header
+				form{
+				display:flex;
+				align-items:center;
+				justify-content:center;
+				}
+				input[type="text"]{
+				padding:10px;
+				border: none;
+				border-radius: 4px;
+				    }
+				button[type="ok"]{
+				padding: 10px;
+				border: none;
+				border-radius: 4px;
+				background-color: #4caF50;
+				color: #fff;
+				cursor: pointer;
+				}
+				
+				nav{
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #311119;
+				}
+				
+				li{float: left};
+				li a{
+				display:block;
+				padding:10px 15px;
+				text-align: left;
+				text-decoration: wavy overline lime;
+				    }
+					
+				footer{
+				h1{
+				text-size: 15px;
+				}
+				li a{
+				display:block;
+				color: #bfff00;
+				padding:10px 15px;
+				text-align:left;
+				text-decoration: wavy overline lime;
+				}
+
+				</style>
+		</head>
+		
+		<body>
+		    <header>
+			
+			<form action="/find"method= "get">
+				<input type="text" name="find" placeholder="find...">
+				<button type="ok">Find</button>
+			</form>
+				
+				<nav>
+				<li><a href="warnerbrosredesign.html">Home</a></li>
+				<li><a href="index.html">movies</a></li>
+				<li><a href="index.html">TV Shows</a></li>
+				<li><a href="index.html">Games&Apps </a></li>
+				<li><a href="index.html">collections</a></li>
+				<li><a href="index.html">feedback</a></li>
+				</nav>
+				
+				<h1> We are interested in your feedback</h1>
+				<form action="submit feedback.php" method="set">
+				    <label for="name">Name:</label>
+					<input type="text"id="name" name="name" placeholder="Your name.."required>
+					
+					<section>
+					<label for="email">Email"</label>
+					<input type="text" id="email" name="email"placeholder="Your email.." required>
+					</section>
+					
+					<section>
+					<label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message.." required></textarea>
+					</section>
+					
+					<section>
+					<input type="submit" value="Submit">
+					</section>
+				
+			</header>
+			
+			<section>
+			
+			</section>
+			
+			<footer>
+			    <p>Terms and Condition 2023 Warner Bros.movies incl.Allrights reserved</p>
+				<li><a href="index.html"> merchandise shop</a></li>
+				<li><a href="index.html"> about us</a></li>
+				<li><a href="index.html"> brands</a></li>
+			</footer>
+		</body>
+	</html>
+
